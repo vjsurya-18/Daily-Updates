@@ -1,0 +1,115 @@
+package automation_mobile_testing.APPIUM_PROJECT;
+
+import java.io.IOException;
+//import java.nio.file.Files;
+//import java.nio.file.Path;
+//import java.nio.file.Paths;
+
+import org.testng.annotations.Test;
+
+//import MavenAutomation.Elections.Profilepage;
+import automation_mobile_testing.pageObjects.android.Profilepage1;
+
+
+public class Menu  extends Installing {
+
+	@Test
+	public void main() throws InterruptedException, IOException {
+		details();
+		
+		Profilepage1 profilepage = new Profilepage1(driver);
+		profilepage.clickimage();
+		
+//		Profilepage1 profile = new Profilepage1(driver);
+//		profile.clickimage();
+	
+			
+		//Path tempFilePath = Files.createTempFile("temp", "file");
+
+		
+//		driver.findElement(By.xpath("//android.view.View[@content-desc=\"Menu\"]/android.widget.ImageView")).click();
+//		
+//		driver.findElement(By.xpath("//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.ImageView")).click();
+//		
+		//Thread.sleep(5000);
+		
+		
+        //driver.pressKey(new KeyEvent (AndroidKey.BACK));
+            
+
+	//	driver.findElement(By.xpath("//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[4]/android.widget.ImageView")).click();
+        //driver.findElement(By.xpath("//android.widget.TextView[@text=\"Follow Leader\"]")).click();
+        
+//        WebElement searchLeader = driver.findElement(By.xpath("//android.widget.TextView[@text=\"Select Leaders\"]"));
+//        searchLeader.click();
+          
+//        driver.findElement(AppiumBy.accessibilityId("Maxwell Lara")).click(); //already followed the leader
+//        driver.findElement(AppiumBy.accessibilityId("Follow")).click();
+        
+       // driver.findElement(By.xpath("(//android.view.ViewGroup[@content-desc=\"More options menu\"])[2]/android.widget.ImageView")).click();
+//        driver.findElement(AppiumBy.accessibilityId("UnFollow")).click();
+//        driver.findElement(By.id("android:id/button1")).click();
+//        Thread.sleep(2000);
+       // driver.pressKey(new KeyEvent (AndroidKey.BACK));
+        
+//        driver.startRecordingScreen();
+//        Thread.sleep(60000);
+        
+        //Employees
+//        driver.findElement(By.xpath("//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.widget.ImageView")).click();
+//       
+//        WebElement addnewemployee = driver.findElement(By.xpath("//android.widget.TextView[@text=\"Add\"]"));
+//        addnewemployee.click();
+//        
+//        WebElement department = driver.findElement(AppiumBy.accessibilityId("Choose Department"));
+//        department.click();
+//        driver.findElement(AppiumBy.accessibilityId("IT Department")).click();
+//        
+//        //        Select dropdown = new Select(department);
+////        dropdown.selectByVisibleText("IT Department");
+//
+//       
+//        WebElement aadharID = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Aadhaar Id\"]"));
+//        aadharID.sendKeys("710468075403");
+//        
+//        WebElement jobrole = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Job Role\"]"));
+//        jobrole.sendKeys("Admin");
+//        
+//        WebElement ctc = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Annual CTC\"]"));
+//        ctc.sendKeys("50000000");
+//        
+////        driver.findElement(By.xpath("//android.widget.EditText[@text=\"Date of Joining\"]"));
+////        driver.findElement(By.xpath("//android.view.View[@content-desc=\"10 January 2024\"]")).click();
+////        driver.findElement(By.xpath("//android.widget.Button[@resource-id=\"android:id/button1\"]"));
+//        
+//        WebElement maxEd = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Maximum Education\"]"));
+//        maxEd.click();
+//        
+//        driver.findElement(By.xpath("//android.view.ViewGroup[@content-desc=\"Engineering\"]"));
+//       
+//       
+//        driver.findElement(By.xpath("//android.widget.TextView[@text=\"Engineering\"]")).click();
+//        WebElement profexp = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Professional Experience(Years)\"]"));
+//   		profexp.click();
+//   		profexp.sendKeys("7");
+//   		
+//   		Thread.sleep(5000);
+//
+//   		WebElement repMang = driver.findElement(By.xpath("//android.widget.EditText[@text=\"Reporting Manager\"]"));
+//   		repMang.click();
+//   		driver.findElement(By.xpath("//android.view.ViewGroup[@content-desc=\"Suresh\"]"));
+//   		
+//   		driver.findElement(By.xpath("//android.widget.TextView[@text=\"Sumeet\"]")).click();
+//   		driver.findElement(By.xpath("//android.widget.EditText[@text=\"Reference Name\"]")).sendKeys("subhash");
+//   		driver.findElement(By.xpath("//android.widget.EditText[@text=\"Reference Number\"]")).click();
+//   		driver.findElement(By.xpath("//android.widget.EditText[@text=\"Additional Comments\"]")).click();
+//   		
+//   		driver.findElement(By.xpath("//android.widget.TextView[@text=\"Submit\"]")).click();
+//   		
+//   		Thread.sleep(2000);
+//   		
+//   	    driver.pressKey(new KeyEvent (AndroidKey.BACK));
+   	    //driver.stopRecordingScreen();
+   	    
+     }
+	}
